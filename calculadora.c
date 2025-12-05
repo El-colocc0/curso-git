@@ -81,9 +81,17 @@ void mostrar_menu()
 }
 
 // Crear las demás funciones aquí
-float dividir(int a, int b)
+
+
+
+
+
+int sumar(int a, int b)
 {
-    return (float)a / b;
+    return a + b;
 }
 
-
+int restar(int a, int b)
+{
+    return a - b;
+}
